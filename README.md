@@ -36,6 +36,18 @@ This is a simple attendance management system for a school, built with Django fo
     python manage.py runserver
     ```
 
+
+
+## Technologies Used
+
+- **Frontend:** React
+- **Backend:** Django REST Framework
+- **Database:** SQLite (default for Django)
+- **State Management:** React Hooks
+- **HTTP Client:** Axios
+- **Authentication:** JWT (JSON Web Tokens)
+
+
 ### Client (React)
 
 1. Navigate to the `client/attendance-client` folder:
@@ -91,6 +103,7 @@ attendance-system/
 │   └── docs/
 │       └── screenshots/
 └── README.md
+
 
 
 
