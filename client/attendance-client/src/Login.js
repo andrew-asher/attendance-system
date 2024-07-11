@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import api from './api';
+import axios from 'axios';  // Import Axios
 
 const Login = ({ setToken }) => {
     const [username, setUsername] = useState('');
@@ -9,8 +9,11 @@ const Login = ({ setToken }) => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await api.post('auth/login/', { username, password });
-            setToken(response.data.token);
+            const response = await axios.post('http://localhost:8000/api/auth/login/', {
+                username: username,
+                password: password
+            });
+            setToken(response.data.token);  // Assuming your server responds with a token
         } catch (error) {
             setError('Invalid username or password');
         }
