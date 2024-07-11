@@ -6,7 +6,7 @@ This is a simple attendance management system for a school, built with Django fo
 
 ### Prerequisites
 
-- Python 3.x
+- Python 
 - Node.js
 - npm
 - Git
@@ -56,31 +56,49 @@ This is a simple attendance management system for a school, built with Django fo
 The project is structured as follows:
 
 
-attendance-system
-├── server
-│ ├── attendance_server
-│ ├── authentication
-│ ├── db.sqlite3
-│ ├── env
-│ ├── manage.py
-├── client
-│ └── attendance-client
-│ ├── public
-│ ├── src
-│ ├── package.json
-│ ├── package-lock.json
-│ ├── node_modules
-│ ├── README.md
-├── docs
-│ └── (screenshots)
-└── ReadMe.md
+attendance-system/
+├── client/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── ...
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Login.js
+│   │   │   └── Home.js
+│   │   ├── api/
+│   │   │   └── api.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── ...
+├── server/
+│   ├── attendance_server/
+│   │   ├── authentication/
+│   │   │   ├── migrations/
+│   │   │   ├── templates/
+│   │   │   ├── __init__.py
+│   │   │   ├── admin.py
+│   │   │   ├── apps.py
+│   │   │   ├── models.py
+│   │   │   ├── tests.py
+│   │   │   ├── urls.py
+│   │   │   └── views.py
+│   │   ├── attendance_system/
+│   │   │   ├── settings.py
+│   │   │   ├── urls.py
+│   │   │   └── wsgi.py
+│   │   ├── manage.py
+│   │   └── requirements.txt
+│   └── docs/
+│       └── screenshots/
+└── README.md
+
 
 
 ### Login Credentials for Testing
 
 Use the following credentials to log in:
 - Username: `andrew`
-- Password: `andrew02102000`
+- Password: `1234`
 - email: sandrew022000@gmail.com
 
 ### Screenshots
