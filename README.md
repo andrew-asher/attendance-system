@@ -66,7 +66,6 @@ This is a simple attendance management system for a school, built with Django fo
 ### Folder Structure
 
 The project is structured as follows:
-
 attendance-system/
 ├── client/
 │ ├── public/
@@ -99,10 +98,8 @@ attendance-system/
 │ │ │ └── wsgi.py
 │ │ ├── manage.py
 │ │ └── requirements.txt
-│ └── docs/
-│ └── screenshots/
-└── README.md
-
+└── docs/
+└── screenshots/
 
 ### Login Credentials for Testing
 
