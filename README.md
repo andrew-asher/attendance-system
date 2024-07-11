@@ -2,14 +2,8 @@
 
 This is a simple attendance management system for a school, built with Django for the backend and React for the frontend.
 
-## Project Setup
 
-### Prerequisites
 
-- Python 
-- Node.js
-- npm
-- Git
 
 ### Server (Django)
 
