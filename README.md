@@ -62,44 +62,11 @@ This is a simple attendance management system for a school, built with Django fo
     ```bash
     npm start
     ```
+### Description
 
-### Folder Structure
-
-The project is structured as follows:
-attendance-system/
-├── client/
-│ ├── public/
-│ │ ├── index.html
-│ │ └── ...
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── Login.js
-│ │ │ └── Home.js
-│ │ ├── api/
-│ │ │ └── api.js
-│ │ ├── App.js
-│ │ ├── index.js
-│ │ └── ...
-├── server/
-│ ├── attendance_server/
-│ │ ├── authentication/
-│ │ │ ├── migrations/
-│ │ │ ├── templates/
-│ │ │ ├── init.py
-│ │ │ ├── admin.py
-│ │ │ ├── apps.py
-│ │ │ ├── models.py
-│ │ │ ├── tests.py
-│ │ │ ├── urls.py
-│ │ │ └── views.py
-│ │ ├── attendance_system/
-│ │ │ ├── settings.py
-│ │ │ ├── urls.py
-│ │ │ └── wsgi.py
-│ │ ├── manage.py
-│ │ └── requirements.txt
-└── docs/
-└── screenshots/
+- **client/**: Contains the frontend application files.
+- **server/**: Contains the backend Django server files.
+- **docs/**: Includes documentation files and screenshots.
 
 ### Login Credentials for Testing
 
@@ -108,11 +75,4 @@ Use the following credentials to log in:
 - Password: `1234`
 - email: sandrew022000@gmail.com
 
-### Screenshots
-
-Add any relevant screenshots in the `docs` folder. Make sure to label them appropriately with the respective task number for easy reference.
-
-## Commit Messages
-
-As you progress through the tasks, commit your changes to the repository on GitHub. Each commit should correspond to a specific task number and include a descriptive message following the convention:
 
