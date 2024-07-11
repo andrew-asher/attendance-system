@@ -67,44 +67,41 @@ This is a simple attendance management system for a school, built with Django fo
 
 The project is structured as follows:
 
-
 attendance-system/
 ├── client/
-│   ├── public/
-│   │   ├── index.html
-│   │   └── ...
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Login.js
-│   │   │   └── Home.js
-│   │   ├── api/
-│   │   │   └── api.js
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   └── ...
+│ ├── public/
+│ │ ├── index.html
+│ │ └── ...
+│ ├── src/
+│ │ ├── components/
+│ │ │ ├── Login.js
+│ │ │ └── Home.js
+│ │ ├── api/
+│ │ │ └── api.js
+│ │ ├── App.js
+│ │ ├── index.js
+│ │ └── ...
 ├── server/
-│   ├── attendance_server/
-│   │   ├── authentication/
-│   │   │   ├── migrations/
-│   │   │   ├── templates/
-│   │   │   ├── __init__.py
-│   │   │   ├── admin.py
-│   │   │   ├── apps.py
-│   │   │   ├── models.py
-│   │   │   ├── tests.py
-│   │   │   ├── urls.py
-│   │   │   └── views.py
-│   │   ├── attendance_system/
-│   │   │   ├── settings.py
-│   │   │   ├── urls.py
-│   │   │   └── wsgi.py
-│   │   ├── manage.py
-│   │   └── requirements.txt
-│   └── docs/
-│       └── screenshots/
+│ ├── attendance_server/
+│ │ ├── authentication/
+│ │ │ ├── migrations/
+│ │ │ ├── templates/
+│ │ │ ├── init.py
+│ │ │ ├── admin.py
+│ │ │ ├── apps.py
+│ │ │ ├── models.py
+│ │ │ ├── tests.py
+│ │ │ ├── urls.py
+│ │ │ └── views.py
+│ │ ├── attendance_system/
+│ │ │ ├── settings.py
+│ │ │ ├── urls.py
+│ │ │ └── wsgi.py
+│ │ ├── manage.py
+│ │ └── requirements.txt
+│ └── docs/
+│ └── screenshots/
 └── README.md
-
-
 
 
 ### Login Credentials for Testing
